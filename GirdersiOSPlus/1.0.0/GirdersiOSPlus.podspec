@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source_files = FileList['src/main/**/*.{h,m, mm, c}']
   s.prefix_header_file = "src/main/objc/GirdersiOSPlus-Prefix.pch"
 
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework MessageUI, -lsqlite3, -lxml2.2' }
   s.requires_arc = true
 
   s.license = { :type => 'commercial', :text => %{
