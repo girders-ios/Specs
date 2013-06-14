@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :svn => 'https://sbb052.extranet.netcetera.biz/sbb-052-5/svn/editor/trunk/src/main/engine/' }
 
   s.source_files = FileList['objc/**/*.{h,m, mm, c}']
-  s.prefix_header_file = "objc/Prefix.pch"
+  s.prefix_header_file = "Prefix.pch"
 
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   s.requires_arc = true
