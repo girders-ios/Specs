@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'Navigation and map engine for sbb-052-5.'
   s.platform = :ios, '5.0'
-  s.source = { :svn => 'https://sbb052.extranet.netcetera.biz/sbb-052-5/svn/editor/trunk/src/SBBNavEngine/' }
+  s.source = { :svn => 'https://sbb052.extranet.netcetera.biz/sbb-052-5/svn/editor/trunk/src/main/engine/' }
 
   s.source_files = FileList['objc/**/*.{h,m, mm, c}']
   s.prefix_header_file = "objc/Prefix.pch"
