@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
   # these, or none if it runs on both platforms.
-  #
   s.platform = :ios, '5.0'
 
   # A list of file patterns which select the source files that should be
@@ -30,14 +29,13 @@ Pod::Spec.new do |s|
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
   s.source_files ='src/core/**/*.{h,m}'
-  s.exclude_files = 'src/common/resources/Info.plist'
+  s.exclude_files = 'src/common/resources/Info.plist', 'src/core/rolotec/**/*.{h,m}'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
   #
   # Also allows the use of the FileList class like `source_files does.
   #
-  # s.resource = "icon.png"
   r1 = 'src/common/resources/Default.png'
   r2 = 'src/common/resources/Default@2x.png'
   r3 = 'src/common/resources/Default-568h@2x.png'
@@ -47,13 +45,11 @@ Pod::Spec.new do |s|
   r7 = 'src/common/resources/RMCFramework_resource.bundle/icon.png'
   r8 = 'src/common/resources/RMCFramework_resource.bundle/icon@2x.png'
   r9 = 'src/common/resources/RMCFramework_resource.bundle/icon-568@2x.png'
-  s.resources = FileList.new("src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "lib/libRMCFramework.a", "src/common/resources/RMCFramework_resource.bundle","src/common/resources/application_colors.plist", "src/common/resources/environment.plist", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
+
+  s.resources = FileList.new("src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
-  #
-  # s.framework = 'AddressBook'
-  # s.ios.frameworks = 'AddressBook'
   # Copy the smartscan framework in the Pods/nca-340-core/lib/ file
   s.ios.preserve_paths =  'lib/smartscan.framework'
   s.framework ='smartscan'
@@ -61,7 +57,10 @@ Pod::Spec.new do |s|
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
   #
-  # s.libraries = 'iconv', 'xml2'
+
+  # If this Pod uses ARC, specify it like so.
+  #
+  s.requires_arc = true
 
   # If this Pod uses ARC, specify it like so.
   #
@@ -76,7 +75,8 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'GRMustache', '6.7.5'
+  s.dependency 'GRMustache','6.7.5'
   s.dependency 'JRSwizzle', '1.0'
   s.dependency 'GirdersiOS', '1.0.0'
+  s.dependency 'Reachability'
 end
