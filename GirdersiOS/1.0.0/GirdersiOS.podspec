@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '5.0'
   s.source = { :svn => 'https://svn.netcetera.biz/svn/nca-312-2/girders-ios/tags/1.0.0' }
 
-  s.source_files = FileList['src/main/**/*.{h,m, mm, c}']
+  s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.prefix_header_file = "src/main/objc/girders-ios-Prefix.pch"
 
   s.libraries = 'z', 'xml2'
