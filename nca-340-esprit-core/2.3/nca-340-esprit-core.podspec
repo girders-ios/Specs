@@ -33,20 +33,7 @@ Pod::Spec.new do |s|
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  #
-  # Also allows the use of the FileList class like `source_files does.
-  #
-  r1 = 'src/common/resources/Default.png'
-  r2 = 'src/common/resources/Default@2x.png'
-  r3 = 'src/common/resources/Default-568h@2x.png'
-  r4 = 'src/common/resources/RMCFramework_resource.bundle/Default.png'
-  r5 = 'src/common/resources/RMCFramework_resource.bundle/Default@2x.png'
-  r6 = 'src/common/resources/RMCFramework_resource.bundle/Default-568@2x.png'
-  r7 = 'src/common/resources/RMCFramework_resource.bundle/icon.png'
-  r8 = 'src/common/resources/RMCFramework_resource.bundle/icon@2x.png'
-  r9 = 'src/common/resources/RMCFramework_resource.bundle/icon-568@2x.png'
-
-  s.resources = "src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
+  s.resources = 'src/common/**/*.{xib, html, strings, xml, mustache, txt}'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
