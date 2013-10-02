@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   r8 = 'src/common/resources/RMCFramework_resource.bundle/icon@2x.png'
   r9 = 'src/common/resources/RMCFramework_resource.bundle/icon-568@2x.png'
 
-  s.resources = FileList.new("src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
+  s.resources = "src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
