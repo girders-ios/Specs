@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  s.resources = 'src/common/**/*.{xib, html, strings, xml, mustache, txt}'
+  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/*.txt'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
