@@ -45,7 +45,6 @@ Pod::Spec.new do |s|
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
   #
-  s.libraries = 'z', 'xml2'
   # If this Pod uses ARC, specify it like so.
   #
   s.requires_arc = true
@@ -57,7 +56,7 @@ Pod::Spec.new do |s|
   # If you need to specify any other build settings, add them to the
   # xcconfig hash.
   #
-  # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/smartscan.framework/"' }
+  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2','FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/smartscan.framework/"' }
   # Adds the smartscan framework in the Pod target
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"', 'OTHER_LDFLAGS' => '-framework smartscan' }
 
