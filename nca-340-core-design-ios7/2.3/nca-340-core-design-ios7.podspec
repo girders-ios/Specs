@@ -5,7 +5,7 @@
 # Remove all comments before submitting the spec.
 #
 Pod::Spec.new do |s|
-  s.name     = 'nca-340-core-ios7'
+  s.name     = 'nca-340-core-design-ios7'
   s.version  = '2.3'
   s.license  = { :type => 'commercial' }
   s.summary  = 'MobileBanking core product.'
