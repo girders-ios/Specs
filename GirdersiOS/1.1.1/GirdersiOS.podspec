@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'A library that greatly reduces development time for iOS applications.'
   s.platform = :ios, '5.0'
-  s.source = { :svn => 'https://svn.netcetera.biz/svn/nca-312-2/girders-ios/tags/1.1.1' }
+  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios/tags/1.1.1' }
 
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.prefix_header_file = "src/main/objc/girders-ios-Prefix.pch"
