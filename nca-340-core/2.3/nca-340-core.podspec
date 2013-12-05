@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source   = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/trunk/'}
+  s.source   = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/tags/2.3/'}
   s.description = 'Podfile for MobileBanking core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
   # these, or none if it runs on both platforms.
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '6.1'
 
   # A list of file patterns which select the source files that should be
   # added to the Pods project. If the pattern is a directory then the
