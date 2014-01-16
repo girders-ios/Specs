@@ -62,6 +62,6 @@ Pod::Spec.new do |s|
   #
   s.dependency 'GRMustache','6.7.5'
   s.dependency 'JRSwizzle', '1.0'
-  s.dependency 'GirdersiOS', :path => '/Users/ggajduk/workspace/girdersiOS/'
+  s.dependency 'GirdersiOS', '1.1.11'
   s.dependency 'Reachability'
 end
