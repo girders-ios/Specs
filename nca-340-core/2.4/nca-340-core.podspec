@@ -62,6 +62,6 @@ Pod::Spec.new do |s|
   #
   s.dependency 'GRMustache','6.7.5'
   s.dependency 'JRSwizzle', '1.0'
-  s.dependency 'GirdersiOS/Core', '1.1.14'
+  s.dependency 'GirdersiOS/All', '1.1.15'
   s.dependency 'Reachability'
 end
