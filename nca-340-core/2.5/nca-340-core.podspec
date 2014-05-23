@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-core'
-  s.version  = '2.4.2'
+  s.version  = '2.5'
   s.license  = { :type => 'commercial' }
   s.summary  = 'MobileBanking core product.'
   s.homepage = 'https://finnova.extranet.netcetera.biz/nca-340-4/niki'
