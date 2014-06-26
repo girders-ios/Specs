@@ -6,14 +6,14 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-core'
-  s.version  = '2.4.5'
+  s.version  = '2.4.6'
   s.license  = { :type => 'commercial' }
   s.summary  = 'MobileBanking core product.'
   s.homepage = 'https://finnova.extranet.netcetera.biz/nca-340-4/niki'
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source   = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/trunk'}
+  s.source   = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/branches/2.4.6'}
   s.description = 'Podfile for MobileBanking core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
