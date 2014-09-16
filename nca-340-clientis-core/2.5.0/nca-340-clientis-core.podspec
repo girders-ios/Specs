@@ -6,15 +6,15 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-clientis-core'
-  s.version  = '2.5.0'
+  s.version  = '2.4.6.0'
   s.license  = { :type => 'commercial' }
-  s.summary  = 'MobileBanking Clients core product.'
+  s.summary  = 'MobileBanking Clientis core product.'
   s.homepage = 'https://finnova.extranet.netcetera.biz/nca-340-4/niki'
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
   s.source   = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/integrationProjects/clientis-core/ios/trunk/'}
-  s.description = 'Podfile for MobileBanking clientis core product.'
+  s.description = 'Podfile for MobileBanking esprit core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
   # these, or none if it runs on both platforms.
@@ -33,20 +33,7 @@ Pod::Spec.new do |s|
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  #
-  # Also allows the use of the FileList class like `source_files does.
-  #
-  r1 = 'src/common/resources/Default.png'
-  r2 = 'src/common/resources/Default@2x.png'
-  r3 = 'src/common/resources/Default-568h@2x.png'
-  r4 = 'src/common/resources/RMCFramework_resource.bundle/Default.png'
-  r5 = 'src/common/resources/RMCFramework_resource.bundle/Default@2x.png'
-  r6 = 'src/common/resources/RMCFramework_resource.bundle/Default-568@2x.png'
-  r7 = 'src/common/resources/RMCFramework_resource.bundle/icon.png'
-  r8 = 'src/common/resources/RMCFramework_resource.bundle/icon@2x.png'
-  r9 = 'src/common/resources/RMCFramework_resource.bundle/icon-568@2x.png'
-
-  s.resources = FileList.new("src/common/**/*.xib", "src/common/resources/**/*.png", "src/common/resources/**/*.html", "src/common/resources/**/*.strings", "src/common/resources/**/*.xml", "src/common/resources/**/*.mustache", "src/common/resources/**/termsOfUse.txt").exclude(r1, r2, r3, r4, r5, r6, r7, r8, r9)
+  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
@@ -67,7 +54,7 @@ Pod::Spec.new do |s|
   #
   # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/smartscan.framework/"' }
   # Adds the smartscan framework in the Pod target
-  # s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"', 'OTHER_LDFLAGS' => '-framework smartscan' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
   # Finally, specify any Pods that this Pod depends on.
   #
