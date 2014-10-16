@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2, ${PODS_ROOT}/#{s.name}/lib/include/*.h, $(inherited)", "OTHER_LDFLAGS" => "-lxml2"}
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2 ${PODS_ROOT}/#{s.name}/lib/include"}
 
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   
