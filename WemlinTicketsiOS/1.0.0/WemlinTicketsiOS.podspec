@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   s.source_files  = "src/main/**/*.{h,m}"
   s.exclude_files = "src/main/resources/Info.plist"
 
-  s.public_header_files = "src/main/**/*.{h,m}"
+  s.public_header_files = "src/main/**/*.h, lib/include/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -112,6 +112,10 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   s.frameworks = "Security", "CoreLocation", "CoreGraphics"
 
+  s.ios.preserve_paths =  "lib/include/*.h"
+  s.ios.vendored_library = "lib/lib/libdtipl.a"
+  s.libraries = "xml2", "dtipl"
+
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
@@ -124,7 +128,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2, ${PODS_ROOT}/#{s.name}/lib/include/*.h, $(inherited)", "OTHER_LDFLAGS" => "-lxml2"}
+
+  s.prefix_header_file = "src/main/objc/Prefix.pch"
   
   s.dependency "GirdersiOS/All"
   s.dependency "Reachability"
