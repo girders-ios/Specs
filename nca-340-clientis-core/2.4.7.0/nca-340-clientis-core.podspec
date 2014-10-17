@@ -7,9 +7,14 @@
 Pod::Spec.new do |s|
   s.name     = 'nca-340-clientis-core'
   s.version  = '2.4.7.0'
-  s.license  = { :type => 'commercial' }
+  s.license = { :type => 'commercial', :text => %{
+                The copyright to the computer program(s) herein is the property of Netcetera AG, Switzerland.
+                The program(s) may be used and/or copied only with the written permission of Netcetera AG or
+                in accordance with the terms and conditions stipulated in the agreement/contract under which
+                the program(s) have been supplied.
+              } }
   s.summary  = 'MobileBanking Clientis core product.'
-  s.homepage = 'https://finnova.extranet.netcetera.biz/nca-340-4/niki'
+  s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
