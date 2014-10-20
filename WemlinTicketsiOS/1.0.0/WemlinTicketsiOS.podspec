@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "src/main/**/*.{h,m}"
-  s.exclude_files = "src/main/resources/Info.plist, src/main/objc/main.m"
+  s.exclude_files = "src/main/resources/Info.plist", "src/main/objc/main.m"
 
   s.public_header_files = "src/main/**/*.h, lib/include/*.h"
 
