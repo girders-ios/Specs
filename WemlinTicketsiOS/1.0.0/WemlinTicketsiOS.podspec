@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "src/main/resources/**/*.*"
+  s.resources = "src/main/resources/**/*.*" "lib/DTiPL/resources/*.*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
