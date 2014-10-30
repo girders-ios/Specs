@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   s.source_files  = "src/main/**/*.{h,m}"
   s.exclude_files = "src/main/resources/Info.plist", "src/main/resources/Images.xcassets", "src/main/objc/main.m", "src/main/resources/core", "src/main/xib/core/"
 
-  s.public_header_files = "src/main/**/*.h, lib/include/*.h"
+  s.public_header_files = "src/main/**/*.h, lib/DTiPL/include/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2 ${PODS_ROOT}/#{s.name}/lib/include"}
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2 ${PODS_ROOT}/#{s.name}/lib/DTiPL/include"}
 
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   
