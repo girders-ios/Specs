@@ -112,8 +112,8 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   s.frameworks = "Security", "CoreLocation", "CoreGraphics"
 
-  s.ios.preserve_paths =  "lib/include/*.h"
-  s.ios.vendored_library = "lib/lib/libdtipl.a"
+  s.ios.preserve_paths =  "lib/DTiPL/include/*.h"
+  s.ios.vendored_library = "lib/DTiPL/lib/libdtipl.a"
   s.libraries = "xml2", "dtipl"
 
   # s.library   = "iconv"
