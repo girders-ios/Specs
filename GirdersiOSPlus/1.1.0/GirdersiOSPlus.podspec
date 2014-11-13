@@ -18,5 +18,5 @@ with the terms and conditions stipulated in the agreement/contract
 under which the program(s) have been supplied.2
 } }
 s.resources = FileList.new("src/main/xib/**/*.xib", "src/main/resources/**/*.png", "src/main/resources/**/*.strings")
-s.dependency 'GirdersiOS', :podspec => 'https://raw.github.com/girders-ios/Specs/master/GirdersiOS/1.0.0/GirdersiOS.podspec'
+s.dependency 'GirdersiOS/All', '1.1.18'
 end
