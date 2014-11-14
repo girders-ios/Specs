@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "src/main/**/*.{h,m}"
-  s.exclude_files = "src/main/resources/Info.plist", "src/main/resources/Images.xcassets", "src/main/objc/main.m", "src/main/resources/core", "src/main/xib/core/"
+  s.exclude_files = "src/main/resources/Info.plist", "src/main/resources/Images.xcassets", "src/main/objc/main.m", "src/main/resources/core"
 
   s.public_header_files = "src/main/**/*.h, lib/DTiPL/include/*.h"
 
@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "src/main/resources/**/*.*", "lib/DTiPL/resources/*.*"
+  s.resources = "src/main/resources/**/*.*", "lib/DTiPL/resources/*.*", "src/main/xib/**/*.*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
