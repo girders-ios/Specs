@@ -127,6 +127,6 @@ Pod::Spec.new do |s|
 
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   
-  s.dependency "GirdersiOS/All", '1.1.19'
+  s.dependency pod 'GirdersiOS-MGB', '1.0.0-MGB'
   s.dependency "PureLayout"
 end
