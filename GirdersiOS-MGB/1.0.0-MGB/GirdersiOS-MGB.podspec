@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Girders for iOS.'
   s.homepage = 'http://netcetera.com'
   s.author   = 'Netcetera'
-  s.description = 'Girders for iOS which is used in the Migros Bank project.'
+  s.description = 'Girders for iOS which is used in the MGB project.'
   s.platform = :ios, '5.0'
   s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/tags/1.0.0-MGB' }
 
