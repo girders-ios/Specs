@@ -134,6 +134,5 @@ Pod::Spec.new do |s|
   
   s.dependency "GirdersiOS/All", '1.1.17'
   s.dependency "Reachability"
-  s.dependency "SwipeView"
 
 end
