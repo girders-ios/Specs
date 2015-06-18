@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WemlinTicketsiOS"
-  s.version = '2.0.0'
+  s.version = '2.0.1'
   s.summary      = "Core project for mobile ticketing."
 
   s.description  = "Core project for the mobile ticketing applications. Tag for VVL and BTA 2.0.0 releases."
