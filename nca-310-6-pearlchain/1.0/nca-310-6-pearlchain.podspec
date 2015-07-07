@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   # target bundle with a build phase script.
   s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml'
 
-  s.prefix_header_file = "src/main/objc/Pearlchain-Prefix.pch"
+  s.prefix_header_file = "src/main/objc/pearlchainModule-Prefix.pch"
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
