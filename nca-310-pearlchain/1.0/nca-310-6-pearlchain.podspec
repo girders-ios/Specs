@@ -5,7 +5,7 @@
 # Remove all comments before submitting the spec.
 #
 Pod::Spec.new do |s|
-  s.name     = 'nca-310-pearlchain'
+  s.name     = 'nca-310-6-pearlchain'
   s.version  = '1.0.0'
   s.license = { :type => 'commercial', :text => %{
                 The copyright to the computer program(s) herein is the property of Netcetera AG, Switzerland.
