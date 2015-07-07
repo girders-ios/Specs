@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files ='src/core/**/*.{h,m}'
+  s.source_files ='src/main/**/*.{h,m}'
   s.exclude_files = 'src/common/resources/Info.plist'
 
   # A list of resources included with the Pod. These are copied into the
