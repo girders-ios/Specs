@@ -132,7 +132,7 @@ Pod::Spec.new do |s|
 
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   
-  s.dependency "GirdersiOS/All", '1.1.17'
+  s.dependency "GirdersiOS/All", '1.1.19'
   s.dependency "Reachability"
 
 end
