@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source   = { :svn => 'https://wemlin-extranet.extranet.netcetera.biz/nca-310-6/svn/modules/pearlchain/ios/trunk'}
+  s.source   = { :svn => 'https://wemlin-extranet.extranet.netcetera.biz/nca-310-6/svn/modules/pearlchain/ios/tags/1.0.0'}
   s.description = 'Podfile for pearchain module from Wemlin.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
