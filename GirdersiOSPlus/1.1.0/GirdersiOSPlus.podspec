@@ -5,8 +5,8 @@ Pod::Spec.new do |s|
   s.homepage = 'https://plaza.netcetera.com/wiki/display/nca3122/Girders+Plus+for+iOS'
   s.author   = 'Netcetera'
   s.description = 'Girders Plus for iOS.'
-  s.platform = :ios, '5.0'
-  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus/trunk/' }
+  s.platform = :ios, '7.1'
+  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus/tags/1.1.0' }
 
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.prefix_header_file = "src/main/objc/GirdersiOSPlus-Prefix.pch"
