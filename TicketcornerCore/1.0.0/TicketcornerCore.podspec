@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -framework Parse' }
+                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -framework Parse, -framework Fanpictor' }
   s.requires_arc = true
   s.license = { :type => 'commercial', :text => %{
                  The copyright to the computer program(s) herein is the property of
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.dependency 'PureLayout'
   s.dependency 'GoogleTagManager'
   s.dependency 'GoogleAnalytics'
-  s.ios.vendored_frameworks = 'lib/Parse.framework'
+  s.ios.vendored_frameworks = 'lib/Parse.framework', 'lib/Fanpictor.framework'
   s.frameworks = 'CoreLocation'
 
 end
