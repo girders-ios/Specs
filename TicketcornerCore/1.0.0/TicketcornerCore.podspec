@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.dependency 'GirdersiOS/All', '1.1.18'
   s.dependency 'Bolts'
   s.dependency 'PureLayout'
+  s.dependency 'TSMessages'
   s.dependency 'GoogleTagManager'
   s.dependency 'GoogleAnalytics'
   s.ios.vendored_frameworks = 'lib/Parse.framework', 'lib/Fanpictor.framework'
