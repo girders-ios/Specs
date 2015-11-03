@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/trunk' }
+  s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/tags/2.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
