@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WemlinTicketsiOS"
-  s.version = '2.1.1'
+  s.version      = '2.1.1'
   s.summary      = "Core project for mobile ticketing."
 
   s.description  = "Core project for the mobile ticketing applications. Tag for VVL and BTA 2.0.0 releases."
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #
 
   s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/trunk' }
-
+16:50
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   s.source_files  = "src/main/**/*.{h,m}"
   s.exclude_files = "src/main/resources/pod_ignore/**/*.*", "src/main/objc/main.m", "src/main/resources/core"
 
-  # s.public_header_files = "src/main/**/*.h, lib/DTiPL/include/*.h"
+  s.public_header_files = "src/main/**/*.h", "lib/DTiPL/include/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -113,7 +113,7 @@ Pod::Spec.new do |s|
   s.frameworks = "Security", "CoreLocation", "CoreGraphics"
 
   s.ios.preserve_paths =  "lib/DTiPL/include/*.h"
-  s.ios.vendored_library = "lib/DTiPL/lib/libdtipl.a"
+  s.vendored_libraries = "lib/DTiPL/lib/libdtipl.a"
   s.libraries = "xml2", "dtipl"
 
   # s.library   = "iconv"
