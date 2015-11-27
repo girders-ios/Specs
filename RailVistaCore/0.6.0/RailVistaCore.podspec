@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'This is the podspec which contains the core project for RailVista product'
   s.platform = :ios, '8.0'
-  s.source = { :git => 'https://railvista-development.extranet.netcetera.biz/git/nca-395-1-railvista-development' }
+  s.source = { :git => 'https://railvista-development.extranet.netcetera.biz/git/nca-395-1-railvista-development', :tag => '0.6.0' }
 
   s.libraries = 'z', 'xml2', 'bz2', 'iconv', 'stdc++.6.0.9'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
