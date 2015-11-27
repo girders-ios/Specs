@@ -63,5 +63,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'nca-340-core', '2.5.3.0'
+  s.dependency 'nca-340-core', '2.5.4.0'
 end
