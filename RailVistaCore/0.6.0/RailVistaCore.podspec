@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'xml2', 'bz2', 'iconv', 'stdc++.6.0.9'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -read_only_relocs supress' }
+                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration' }
   s.requires_arc = true
   s.license = { :type => 'commercial', :text => %{
                  The copyright to the computer program(s) herein is the property of
