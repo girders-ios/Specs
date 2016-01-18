@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
   s.dependency 'TSMessages'
   s.dependency 'GoogleTagManager'
   s.dependency 'GoogleAnalytics'
-  s.dependency 'CocoaAsyncSocket', '7.4.2'
   s.ios.vendored_frameworks = 'lib/Parse.framework'
   s.frameworks = 'CoreLocation'
 
