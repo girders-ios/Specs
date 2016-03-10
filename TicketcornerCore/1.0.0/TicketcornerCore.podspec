@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'TSMessages'
   s.dependency 'GoogleTagManager'
   s.dependency 'GoogleAnalytics'
+  s.dependency 'youtube-ios-player-helper'
   s.ios.vendored_frameworks = 'lib/Parse.framework', 'lib/FBSDKCoreKit.framework', 'lib/FBSDKLoginKit.framework', 'lib/FBSDKShareKit.framework'
   s.frameworks = 'CoreLocation'
 
