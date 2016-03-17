@@ -24,5 +24,9 @@ Pod::Spec.new do |s|
   s.source_files = 'src/main/objc/**/*.{h,m, mm, c}'
   s.exclude_files = 'src/main/resources/Info.plist', 'src/main/resources/GRConfiguration.plist'
   s.dependency 'GirdersiOSPlusMedia', '1.0'
-  s.dependency 'MobileVLCKit', '2.2.1'
+  #s.dependency 'MobileVLCKit', '2.2.1'
+  
+  subspec 'Complete' do 'complete'
+    complete.dependency 'MobileVLCKit', '2.2.1'
+  end
 end
