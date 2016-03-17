@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.dependency 'GirdersiOSPlusMedia', '1.0'
   #s.dependency 'MobileVLCKit', '2.2.1'
   
-  subspec 'Complete' do 'complete'
+  subspec 'Complete' do |complete|
     complete.dependency 'MobileVLCKit', '2.2.1'
   end
 end
