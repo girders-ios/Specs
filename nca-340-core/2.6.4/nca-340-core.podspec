@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-core'
-  s.version = '2.6.3'
+  s.version = '2.6.4'
   s.license = { :type => 'commercial', :text => %{
                 The copyright to the computer program(s) herein is the property of Netcetera AG, Switzerland.
                 The program(s) may be used and/or copied only with the written permission of Netcetera AG or
