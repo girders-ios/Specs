@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'This is the podspec which contains the AVFoundation implementation of GirdersiOSPlusMedia'
   s.platform = :ios, '8.0'
-  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus-media/foundation/trunk' }
+  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus-media/foundation/tags/1.2.0' }
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   s.source_files = 'src/main/objc/**/*.{h,m, mm, c}'
   s.exclude_files = 'src/main/resources/Info.plist', 'src/main/resources/GRConfiguration.plist'
-  s.dependency 'GirdersiOSPlusMedia', '1.1.1'
+  s.dependency 'GirdersiOSPlusMedia', '1.2.0'
 end
