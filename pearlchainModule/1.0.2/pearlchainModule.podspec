@@ -60,6 +60,6 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'GirdersiOS/All'
+  s.dependency 'GirdersiOS/All', '~> 1.1.22'
   s.dependency 'Reachability'
 end
