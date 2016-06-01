@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   s.source_files = 'src/main/objc/**/*.{h,m, mm, c}'
   s.exclude_files = 'src/main/resources/Info.plist', 'src/main/resources/GRConfiguration.plist'
-  s.dependency 'GirdersiOSPlusMedia', '1.1.1'
+  s.dependency 'GirdersiOSPlusMedia', '1.2.0'
   s.dependency 'MobileVLCKit', '2.2.1'
 end
