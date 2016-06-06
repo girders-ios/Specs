@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'This is the podspec which contains the core of the Analytics module. Contains classes that need to be implemented by concrete providers.'
   s.platform = :ios, '8.0'
-  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus-analytics/core/trunk' }
+  s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios-plus-analytics/core/tags/1.5.0' }
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
