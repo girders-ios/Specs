@@ -133,5 +133,6 @@ Pod::Spec.new do |s|
   
   s.dependency "GirdersiOS/All", '1.1.20'
   s.dependency "Reachability"
+  s.dependency "Google/Analytics"
 
 end
