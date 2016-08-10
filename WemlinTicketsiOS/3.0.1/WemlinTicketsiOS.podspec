@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Security", "CoreLocation", "CoreGraphics"
+  s.frameworks = "Security", "CoreLocation", "CoreGraphics", "MobileCoreServices"
 
   s.ios.preserve_paths =  "lib/DTiPL/include/*.h"
   s.vendored_libraries = "lib/DTiPL/lib/libdtipl.a"
