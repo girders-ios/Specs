@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/trunk' }
+  s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/tags/3.0.1/' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,7 +131,7 @@ Pod::Spec.new do |s|
 
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   
-  s.dependency "GirdersiOS/All", '1.1.23'
+  s.dependency "GirdersiOS/All", '1.1.24'
   s.dependency "Reachability"
   s.dependency "Google/Analytics"
 
