@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.resources = 'src/main/resources/*', 'src/main/xib/*'
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
-  s.dependency 'GirdersiOS/All', '1.1.18'
+  s.dependency 'GirdersiOS/All', '1.1.25'
   s.dependency 'Bolts', '1.6.0'
   s.dependency 'PureLayout', '3.0.1'
   s.dependency 'GoogleTagManager', '5.0.6'
