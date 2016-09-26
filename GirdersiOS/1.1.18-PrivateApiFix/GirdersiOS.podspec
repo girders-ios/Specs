@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
   s.description = 'A library that greatly reduces development time for iOS applications.'
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '7.1'
   s.source = { :svn => 'https://girders-ios.extranet.netcetera.biz/nca-312-2/svn/girders-ios/tags/1.1.18-PrivateApiFix' }
 
   s.libraries = 'z', 'xml2'
