@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
+  #  Supports git, hg,  bzr, svn and HTTP.
   #
 
   s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/trunk' }
