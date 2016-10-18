@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Security", "CoreLocation", "CoreGraphics", "MobileCoreServices"
+  s.frameworks = "Security", "CoreLocation", "CoreGraphics", "MobileCoreServices", "MessageUI"
 
   s.ios.preserve_paths =  "lib/DTiPL/include/*.h"
   s.vendored_libraries = "lib/DTiPL/lib/libdtipl.a"
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
 
   s.dependency "GirdersiOS/All", '1.1.25'
   s.dependency "Reachability"
-  s.dependency "Google/Analytics"
+  s.dependency "GoogleAnalytics", '3.17.0'
 
 end
