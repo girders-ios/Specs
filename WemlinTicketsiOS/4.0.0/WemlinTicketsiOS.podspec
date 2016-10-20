@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
                      Netcetera AG, Switzerland. The program(s) may be used and/or copied
                      only with the written permission of Netcetera AG or in accordance
                      with the terms and conditions stipulated in the agreement/contract
-                     under which the program(s) have been supplied.2
+                     under which the program(s) have been supplied.
                     } }
 
 
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author       = { "Netcetera" => "http://www.netcetera.com" }
+  s.author       = { "Netcetera" => "http://www.netcetera.com"  }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
