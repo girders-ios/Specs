@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleTagManager', '5.0.6'
   s.dependency 'TSMessages', '0.9.12'
   s.dependency 'youtube-ios-player-helper'
-  s.dependency 'Firebase/Core'
-  s.dependency 'Firebase/Messaging'
+  s.dependency 'Firebase/Core', '3.7.0'
+  s.dependency 'Firebase/Messaging', '3.7.0'
   s.ios.vendored_frameworks = 'lib/FBSDKCoreKit.framework', 'lib/FBSDKLoginKit.framework', 'lib/FBSDKShareKit.framework', 'lib/SIXMerchantSDK.framework'
   s.frameworks = 'CoreLocation'
 
