@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   # ――― Project Linking  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #   Link your library with frameworks, or libraries. Libraries do not include
-  #   the lib prefix of their name.
+  #   the lib prefix of their name. 
   #
 
   # s.framework  = "SomeFramework"
