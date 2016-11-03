@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   s.resources = "src/main/resources/**/*.*", "lib/DTiPL/resources/*.*", "src/main/xib/**/*.*"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  # s.preserve_paths = "FilesToSave",  "MoreFilesToSave"
 
 
   # ――― Project Linking  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
