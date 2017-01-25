@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   s.source_files  = "src/main/**/*.{h,m}"
   s.exclude_files = "src/main/resources/pod_ignore/**/*.*", "src/main/objc/main.m", "src/main/resources/core"
 
-  s.public_header_files = "src/main/**/*.h"
+  s.public_header_files = "src/main/**/*.h", "lib/DTiPL/include/*.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
