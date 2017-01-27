@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -framework FBSDKLoginKit, -framework FBSDKLoginKit, -framework FBSDKShareKit, -framework SIXMerchantSDK' }
+                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -framework FBSDKLoginKit, -framework FBSDKLoginKit, -framework FBSDKShareKit' }
   s.requires_arc = true
   s.license = { :type => 'commercial', :text => %{
                  The copyright to the computer program(s) herein is the property of
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
               } }
 
   s.resources = 'src/main/resources/*', 'src/main/xib/*'
+  s.exclude_files = 'src/main/objc/**/payment/*.{h,m,xib,storyboard}', 'src/main/objc/AppDelegate+Paymit.{h,m}'
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.dependency 'GirdersiOS/All', '1.1.25'
@@ -31,7 +32,7 @@ Pod::Spec.new do |s|
   s.dependency 'youtube-ios-player-helper'
   s.dependency 'Firebase/Core', '3.7.0'
   s.dependency 'Firebase/Messaging', '3.7.0'
-  s.ios.vendored_frameworks = 'lib/FBSDKCoreKit.framework', 'lib/FBSDKLoginKit.framework', 'lib/FBSDKShareKit.framework', 'lib/SIXMerchantSDK.framework'
+  s.ios.vendored_frameworks = 'lib/FBSDKCoreKit.framework', 'lib/FBSDKLoginKit.framework', 'lib/FBSDKShareKit.framework'
   s.frameworks = 'CoreLocation'
 
 end
