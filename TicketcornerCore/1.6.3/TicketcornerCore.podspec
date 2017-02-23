@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
               } }
 
   s.resources = 'src/main/resources/*', 'src/main/xib/*'
-  s.exclude_files = 'src/main/objc/**/payment/*.{h,m,xib,storyboard}', 'src/main/objc/AppDelegate+Paymit.{h,m}'
+  s.exclude_files = 'src/main/**/payment/*.{h,m,xib,storyboard}', 'src/main/objc/AppDelegate+Paymit.{h,m}'
   s.prefix_header_file = "src/main/objc/Prefix.pch"
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.dependency 'GirdersiOS/All', '1.1.25'
