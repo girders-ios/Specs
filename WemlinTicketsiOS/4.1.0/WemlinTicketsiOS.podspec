@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   s.frameworks = "Security", "CoreLocation", "CoreGraphics", "MobileCoreServices", "MessageUI"
 
-  s.ios.preserve_paths =  "lib/DTiPL/include/*.h"
+  s.ios.preserve_paths = "lib/DTiPL/include/*.h"
   s.vendored_libraries = "lib/DTiPL/lib/libdtipl.a"
   s.libraries = "xml2", "dtipl"
 
