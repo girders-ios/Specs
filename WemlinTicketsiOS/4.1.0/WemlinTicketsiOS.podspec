@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "TBD"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ―――  Spec License  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See http://choosealicense.com for more info.
   #  CocoaPods will detect a license file if there is a named LICENSE*
