@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
-                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -lsqlite3.0', 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) SECURE_LOG_LEVEL=3' }
+                 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -lsqlite3.0'}
   s.requires_arc = true
 
   s.license = { :type => 'commercial', :text => %{
