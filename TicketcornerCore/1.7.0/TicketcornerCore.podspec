@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Podpsec for the core project of live event app'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
-  s.description = 'This is the podspec which contains the core project for live event app'
+  s.description = 'This is the podspec which contains the core project for liveeventapp'
   s.platform = :ios, '8.0'
   s.source = { :git => 'https://liveeventapp.extranet.netcetera.biz/git/tic-002-4-liveeventapp-ios'}
 
