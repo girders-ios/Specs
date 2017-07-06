@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
               } }
 
 
-  s.source_files = 'src/main/**/*.{swift}'
+  s.source_files = 'GirdersSwift/src/main/**/*.{swift}'
   s.dependency 'PromiseKit'
 end
