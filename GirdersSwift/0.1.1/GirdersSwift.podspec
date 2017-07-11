@@ -7,9 +7,6 @@ Pod::Spec.new do |s|
   s.description = 'A library that greatly reduces development time for iOS applications.'
   s.platform = :ios, '9.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-swift.git' }
-
-  s.libraries = 'z', 'xml2'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework Security, -framework CFNetwork, -framework SystemConfiguration, -lsqlite3.0' }
   s.requires_arc = true
 
   s.license = { :type => 'commercial', :text => %{
