@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Girders for iOS, written in Swift.'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
-  s.description = 'A library that greatly reduces development time for iOS applications.'
+  s.description = 'A library that greatly reduces development time for iOS Swift applications.'
   s.platform = :ios, '9.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-swift.git' }
   s.requires_arc = true
