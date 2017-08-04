@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.platform = :ios, '9.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-swift.git' }
   s.requires_arc = true
-  s.preserve_path = 'module.modulemap'
-  s.module_map = 'module.modulemap'
   s.module_name = 'GirdersSwift'
-  
+  s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GirdersSwift' }
+  s.preserve_paths = 'module.modulemap'
+
   s.license = { :type => 'commercial', :text => %{
                  The copyright to the computer program(s) herein is the property of
                  Netcetera AG, Switzerland.  The program(s) may be used and/or copied
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
               } }
 
 
-  s.source_files = 'GirdersSwift/src/main/**/*.{swift}', 'GirdersSwift/GirdersSwift-Swift.h'
+  s.source_files = 'GirdersSwift/src/main/**/*.{swift}'
   s.dependency 'PromiseKit'
   s.dependency 'SwiftyBeaver'
 end
