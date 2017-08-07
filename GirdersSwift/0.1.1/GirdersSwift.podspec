@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
               } }
 
 
-  s.source_files = 'GirdersSwift/src/main/**/*.{swift}'
+  s.source_files = 'GirdersSwift/src/main/**/*.{swift}', 'GirdersSwift/CommonCrypto.h'
   s.dependency 'PromiseKit'
   s.dependency 'SwiftyBeaver'
   s.frameworks = 'Foundation', 'Security'
