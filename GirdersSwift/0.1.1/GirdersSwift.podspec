@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'GirdersSwift'
-  s.version = '0.1.10'
+  s.version = '0.1.9'
   s.summary  = 'Girders for iOS, written in Swift.'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.dependency 'PromiseKit'
   s.dependency 'SwiftyBeaver'
   s.frameworks = 'Foundation', 'Security'
+  s.prepare_command = "ruby updateXcodePath.rb"
 end
