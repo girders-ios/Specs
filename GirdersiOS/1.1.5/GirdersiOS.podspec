@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
                  with the terms and conditions stipulated in the agreement/contract
                  under which the program(s) have been supplied.2
               } }
-  s.dependency 'SSZipArchive'
+  s.dependency 'SSZipArchive', '1.6.2'
 end
