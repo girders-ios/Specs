@@ -69,5 +69,4 @@ Pod::Spec.new do |s|
   s.dependency 'JRSwizzle', '1.0'
   s.dependency 'GirdersiOS/All', '1.1.26'
   s.dependency 'ObjectiveLuhn', '1.0.2'
-  s.dependency 'LXReorderableCollectionViewFlowLayout', '0.1.1'
 end
