@@ -26,5 +26,6 @@ Pod::Spec.new do |s|
   s.dependency 'PromiseKit'
   s.dependency 'SwiftyBeaver'
   s.frameworks = 'Foundation', 'Security'
+  s.vendored_frameworks = 'framework/GRSecurity.framework'
   s.prepare_command = "ruby updateXcodePath.rb"
 end
