@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://plaza.netcetera.com/'
   s.author   = 'Netcetera'
   s.description = 'ScanAndPay library for iOS.'
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '7.0'
   s.source = { :svn => 'https://extranet.netcetera.biz/bitbucket/scm/mgb013mmba/scan-and-pay.git' }
   s.source_files = 'src/main/**/*.{h,m, mm, c}'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework AVFoundation, -framework CoreMedia' }
