@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description = 'ScanAndPay library for iOS.'
   s.platform = :ios, '7.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/mgb013mmba/scan-and-pay.git' }
-  s.source_files = '**/*.{h,m, mm, c}'
+  s.source_files = '**/*.{h,m,mm,c}','core/parse.c'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework AVFoundation, -framework CoreMedia' }
   s.requires_arc = true
 
