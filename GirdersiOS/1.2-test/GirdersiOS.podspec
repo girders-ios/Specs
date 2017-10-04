@@ -1,12 +1,13 @@
 Pod::Spec.new do |s|
   s.name     = 'GirdersiOS'
-  s.version = '1.2-test'
+  s.version = '1.2.0'
   s.summary  = 'Girders for iOS.'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
   s.description = 'A library that greatly reduces development time for iOS applications.'
   s.platform = :ios, '7.0'
-  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-ios.git', :branch => 'security-updates' }
+  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-ios.git', :tag => '1.2.0' }
+
 
   s.libraries = 'z', 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
