@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "src/main/**/*.h", "lib/DTiPL/include/*.h"
 
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Resources ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
