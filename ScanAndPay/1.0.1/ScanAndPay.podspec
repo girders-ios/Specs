@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name     = 'ScanAndPay'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary  = 'ScanAndPay library for iOS.'
   s.homepage = 'https://plaza.netcetera.com/'
   s.author   = 'Netcetera'
   s.description = 'ScanAndPay library for iOS.'
   s.platform = :ios, '7.0'
-  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/mgb013mmba/scan-and-pay.git', :tag => '1.0.0' }
+  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/mgb013mmba/scan-and-pay.git', :tag => '1.0.1' }
   s.source_files = '**/*.{h,m,mm,c}'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework AVFoundation, -framework CoreMedia' }
   s.requires_arc = true
