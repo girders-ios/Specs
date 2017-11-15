@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
   s.source_files ='src/core/**/*.{h,m}'
-  s.exclude_files = 'src/common/resources/Info.plist', 'src/core/rolotec/**/*.{h,m}'
+  s.exclude_files = 'src/common/resources/Info.plist', 'src/core/rolotec/**/*.{h,m}', 'src/common/resources/*.xcassets'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
