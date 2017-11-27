@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  # ――― Project Linking  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Project Linking  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――-- #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
