@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
 
   s.source = { :svn => 'https://wemlin-tickets.extranet.netcetera.biz/nca-376-8/svn/mobile/ios/core/trunk' }
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Source Code ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any h, m, mm, c & cpp files. For header
@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "src/main/**/*.h", "lib/DTiPL/include/*.h"
 
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
+  # ――― Resources ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  # ――― Project Linking  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――-- #
+  # ――― Project Linking  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――-- #
+  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
