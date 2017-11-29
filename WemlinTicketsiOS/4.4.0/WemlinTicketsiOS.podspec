@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "TBD"
 
 
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-- #
   #
   #  Licensing your code is important. See http://choosealicense.com for more info.
   #  CocoaPods will detect a license file if there is a named LICENSE*
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
                     } }
 
 
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――- #
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――-- #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
   #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
