@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'ScanAndPay'
-  s.version = '1.0.3'
+  s.version = '1.1.0'
   s.summary  = 'ScanAndPay library for iOS.'
   s.homepage = 'https://plaza.netcetera.com/'
   s.author   = 'Netcetera'
