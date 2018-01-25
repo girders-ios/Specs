@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
   s.description = 'A library that reduces development time for iOS Swift applications.'
   s.platform = :ios, '9.0'
-  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-swift.git' }
+  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-swift.git', :tag => '0.1.15' }
   s.requires_arc = true
   s.module_name = 'GirdersSwift'
   s.xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GirdersSwift',
