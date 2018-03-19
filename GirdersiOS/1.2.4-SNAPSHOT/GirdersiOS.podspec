@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'GirdersiOS'
-  s.version = '1.2.2'
+  s.version = '1.2.4'
   s.summary  = 'Girders for iOS.'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
   s.description = 'A library that greatly reduces development time for iOS applications.'
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '8.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca312ios/girders-ios.git', :branch => 'release-1.2.4' }
 
 
