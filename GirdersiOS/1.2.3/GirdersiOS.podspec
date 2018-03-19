@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'GirdersiOS'
-  s.version = '1.2.2'
+  s.version = '1.2.3'
   s.summary  = 'Girders for iOS.'
   s.homepage = 'http://www.netcetera.com'
   s.author   = 'Netcetera'
