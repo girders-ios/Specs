@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
   # these, or none if it runs on both platforms.
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '8.0'
 
   # A list of file patterns which select the source files that should be
   # added to the Pods project. If the pattern is a directory then the
@@ -67,6 +67,6 @@ Pod::Spec.new do |s|
   #
   s.dependency 'GRMustache','7.3.2'
   s.dependency 'JRSwizzle', '1.0'
-  s.dependency 'GirdersiOS/All', '1.2.2'
+  s.dependency 'GirdersiOS/All', '1.2.4'
   s.dependency 'ObjectiveLuhn', '1.0.2'
 end
