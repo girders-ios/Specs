@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'Reveal/Classes/GRReveal.m', 'Reveal/Classes/GRReveal.h', 'Reveal/Classes/reveal/*.h'
+  s.source_files = 'Reveal/Classes/GRReveal.m', 'Reveal/Classes/GRReveal.h', 'Reveal/Classes/reveal/*.h'
 
   s.public_header_files = 'Reveal/Classes/GRReveal.h'
   s.frameworks = 'UIKit', 'CoreGraphics'
