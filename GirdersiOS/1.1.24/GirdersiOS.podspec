@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     core.prefix_header_file = "src/main/objc/girders-ios-Prefix.pch"
     core.source_files = 'src/main/**/*.{h,m, mm, c}'
     core.exclude_files = 'src/main/objc/ghunitmigration/*.{h,m}'
-    core.dependency 'SSZipArchive'
+    core.dependency 'SSZipArchive', '1.0.1'
     core.dependency 'NSJSONSerialization-NSNullRemoval'
   end
     
