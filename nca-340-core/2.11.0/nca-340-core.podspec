@@ -42,10 +42,8 @@ Pod::Spec.new do |s|
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
-  # Copy the smartscan framework in the Pods/nca-340-core/lib/ file
-  s.ios.preserve_paths =  'lib/smartscan.framework'
-  s.framework ='smartscan'
-  s.public_header_files = 'src/core/**/*.h', 'lib/smartscan.framework/**/*.h'
+
+  s.public_header_files = 'src/core/**/*.h'
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
   #
