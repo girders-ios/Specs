@@ -9,10 +9,15 @@ Pod::Spec.new do |s|
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '4.0'
+    s.dependency 'GirdersSwift'
     
     s.subspec 'Core' do |core|
         core.source_files = '**/ToPayMobileWallet/core/**/*.{swift,h,m}'
+        core.dependency 'ToPayMobileWallet/Web'
+    end
+
+    s.subspec 'Web' do |web|
+        web.source_files = '**/ToPayMobileWallet/web/**/*.{swift,h,m}'
     end
     
 end
-
