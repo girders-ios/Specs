@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "Netcetera" => "http://www.netcetera.com" }
 
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Platform Specifics ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
