@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-esprit-core'
-  s.version = '2.11.0.0'
+  s.version = '2.11.1.0'
   s.license = { :type => 'commercial', :text => %{
                 The copyright to the computer program(s) herein is the property of Netcetera AG, Switzerland.
                 The program(s) may be used and/or copied only with the written permission of Netcetera AG or
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/integrationProjects/esprit-core/ios/tags/2.11.0.0' }
+  s.source = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/integrationProjects/esprit-core/ios/trunk' }
   s.description = 'Podfile for MobileBanking esprit core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
@@ -63,5 +63,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'nca-340-core', '2.11.0'
+  s.dependency 'nca-340-core', '2.11.1'
 end
