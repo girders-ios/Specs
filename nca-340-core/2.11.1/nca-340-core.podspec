@@ -67,5 +67,5 @@ Pod::Spec.new do |s|
   s.dependency 'JRSwizzle', '1.0'
   s.dependency 'GirdersiOS/All', '1.2.4'
   s.dependency 'ObjectiveLuhn', '1.0.2'
-  s.dependency 'ScanAndPay', '1.1.1'
+  s.dependency 'ScanAndPay', '1.1.1-FNN'
 end
