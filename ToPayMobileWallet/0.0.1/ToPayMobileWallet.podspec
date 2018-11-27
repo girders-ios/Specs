@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     
     s.subspec 'Presentation' do |presentation|
         presentation.source_files = '**/ToPayMobileWallet/presentation/**/*.{swift,h,m}'
-        presentation.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/presentation/**/*.{storyboard,xib,xcassets,json,imageset,png}'] }
+        presentation.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/presentation/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,lproj}'] }
         presentation.dependency 'ToPayMobileWallet/Core'
     end
 
