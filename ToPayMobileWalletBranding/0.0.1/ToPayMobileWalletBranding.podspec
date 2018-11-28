@@ -1,18 +1,16 @@
 Pod::Spec.new do |s|
 
-    s.name             = "ToPayMobileWalletMocks"
+    s.name             = "ToPayMobileWalletBranding"
     s.version          = "0.0.1"
-    s.summary          = "A framework containing predefined mocked components of the tpmw framework."
+    s.summary          = "A framework containing all necessary component definitions to brand the ToPayMobileWallet"
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
-    s.author           = {"Eduard Berbecaru" => "eduard.berbecaru@netcetera.com"}
+    s.author           = {"Jan Brunner" => "jan.brunner@netcetera.com"}
     s.source           = {:git => "https://extranet.netcetera.biz/bitbucket/scm/nca422tpmw/topay-mobile-wallet-ios.git", :branch => 'develop'}
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '4.0'
-    s.source_files = '**/ToPayMobileWalletMocks/**/*.{swift,h,m}'
-    s.dependency 'ToPayMobileWallet'
-    s.dependency 'ToPayMobileWalletBranding'
-    s.dependency 'GirdersSwift'
+    s.source_files = '**/ToPayMobileWalletBranding/**/*.{swift,h,m}'
 
 end
+
