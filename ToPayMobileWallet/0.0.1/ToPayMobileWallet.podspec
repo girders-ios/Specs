@@ -14,19 +14,12 @@ Pod::Spec.new do |s|
     s.subspec 'Core' do |core|
         core.source_files = '**/ToPayMobileWallet/core/**/*.{swift,h,m}'
         core.dependency 'ToPayMobileWallet/Web'
-        core.dependency 'ToPayMobileWalletBranding'
     end
 
     s.subspec 'Web' do |web|
         web.source_files = '**/ToPayMobileWallet/web/**/*.{swift,h,m}'
         web.dependency 'GirdersSwift'
     end
-
-    s.subspec 'Presentation' do |presentation|
-        presentation.source_files = '**/ToPayMobileWallet/presentation/**/*.{swift,h,m}'
-        presentation.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/presentation/**/*.{storyboard,xib,xcassets,json,imageset,png,strings,lproj}'] }
-        presentation.dependency 'ToPayMobileWallet/Core'
-        presentation.dependency 'ToPayMobileWalletBranding'
-    end
-
+    
 end
+
