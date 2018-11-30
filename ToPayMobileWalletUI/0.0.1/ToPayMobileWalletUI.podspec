@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '4.0'
-    s.source_files     = '**/ToPayMobileWallet/presentation/**/*.{swift,h,m}'
-    s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/presentation/**/*.{storyboard,xib,xcassets,json,imageset,png}'] }
+    s.source_files     = '**/ToPayMobileWalletUI/**/*.{swift,h,m}'
+    s.resource_bundles = { 'ToPayMobileWalletUI' => ['**/ToPayMobileWalletUI/**/*.{storyboard,xib,xcassets,json,imageset,png}'] }
     s.dependency 'ToPayMobileWallet'
     s.dependency 'ToPayMobileWalletBranding'
 
