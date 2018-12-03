@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
     s.requires_arc     = true
     s.swift_version    = '4.0'
     s.source_files = '**/ToPayMobileWalletUIMocks/**/*.{swift,h,m}'
-    s.dependency 'ToPayMobileWallet'
     s.dependency 'ToPayMobileWalletUI'
     s.dependency 'ToPayMobileWalletBranding'
     s.dependency 'GirdersSwift'
