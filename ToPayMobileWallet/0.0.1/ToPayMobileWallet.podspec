@@ -21,5 +21,10 @@ Pod::Spec.new do |s|
         web.dependency 'GirdersSwift'
     end
     
+    s.subspec 'Dependencies' do |dependencies|
+        dependencies.source_files = '**/ToPayMobileWallet/dependencies/**/*.{swift,h,m}'
+        dependencies.dependency 'ToPayMobileWallet/Core'
+    end
+    
 end
 
