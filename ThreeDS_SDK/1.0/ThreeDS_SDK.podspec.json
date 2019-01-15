@@ -1,0 +1,38 @@
+{
+  "name": "ThreeDS_SDK",
+  "version": "1.0",
+  "summary": "ThreeDS_SDK summary",
+  "description": "ThreeDS_SDK description",
+  "homepage": "https://netcetera.com",
+  "license": {
+    "type": "Commercial",
+    "file": "framework/LICENSE.md"
+  },
+  "authors": {
+    "NetceteraAG"
+  },
+  "source": {
+    "git": "https://extranet.netcetera.biz/bitbucket/scm/nca4463dss/ios-3ds-skd.git",
+    "branch": "cocoapods_poc"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": false,
+
+  "ios": {
+    "vendored_frameworks": "framework/ThreeDS_SDK_1.0.framework"
+  },
+
+  "xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
+  },
+
+  "dependencies": {
+    "SwCrypt": "~> 4.0",
+    "GirdersSwift": "~> 2.0",
+    "DTTJailbreakDetection": "~> 1.1",
+    "SwiftLint": "~> 2.1",
+    "GMEllipticCurveCrypto": "~>1.1"
+  }
+}
