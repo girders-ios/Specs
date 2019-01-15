@@ -9,7 +9,7 @@
     "file": "framework/LICENSE.md"
   },
   "authors": {
-    "NetceteraAG"
+    "NetceteraAG" : "NetceteraAG:"
   },
   "source": {
     "git": "https://extranet.netcetera.biz/bitbucket/scm/nca4463dss/ios-3ds-skd.git",
