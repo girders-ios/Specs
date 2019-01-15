@@ -6,13 +6,14 @@
   "homepage": "https://netcetera.com",
   "license": {
     "type": "Commercial",
-    "file": "ThreeDS-SDK/LICENSE.md"
+    "file": "framework/LICENSE.md"
   },
   "authors": {
-    "NetceteraAG" : "NetceteraAG"
+    "NetceteraAG"
   },
   "source": {
-    "http": "https://finnova.extranet.netcetera.biz/nca-340-4/dav/test/ThreeDS-SDK_1.0.zip"
+    "git": "https://extranet.netcetera.biz/bitbucket/scm/nca4463dss/ios-3ds-skd.git",
+    "branch": "cocoapods_poc"
   },
   "platforms": {
     "ios": "9.0"
@@ -20,7 +21,7 @@
   "requires_arc": false,
 
   "ios": {
-    "vendored_frameworks": "ThreeDS-SDK_1.0/ThreeDS_SDK.framework"
+    "vendored_frameworks": "framework/ThreeDS_SDK_1.0.framework"
   },
 
   "xcconfig": {
