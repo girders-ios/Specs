@@ -6,14 +6,13 @@
   "homepage": "https://netcetera.com",
   "license": {
     "type": "Commercial",
-    "file": "framework/LICENSE.md"
+    "file": "ThreeDS-SDK/LICENSE.md"
   },
   "authors": {
-    "NetceteraAG" : "NetceteraAG:"
+    "NetceteraAG" : "NetceteraAG"
   },
   "source": {
-    "git": "https://extranet.netcetera.biz/bitbucket/scm/nca4463dss/ios-3ds-skd.git",
-    "branch": "cocoapods_poc"
+    "http": "https://finnova.extranet.netcetera.biz/nca-340-4/dav/test/ThreeDS-SDK_1.0.zip"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +20,7 @@
   "requires_arc": false,
 
   "ios": {
-    "vendored_frameworks": "framework/ThreeDS_SDK_1.0.framework"
+    "vendored_frameworks": "ThreeDS-SDK_1.0/ThreeDS_SDK.framework"
   },
 
   "xcconfig": {
@@ -29,10 +28,10 @@
   },
 
   "dependencies": {
-    "SwCrypt": "~> 4.0",
-    "GirdersSwift": "~> 2.0",
-    "DTTJailbreakDetection": "~> 1.1",
-    "SwiftLint": "~> 2.1",
-    "GMEllipticCurveCrypto": "~>1.1"
+    "SwCrypt": "~> 5.1.2",
+    "GirdersSwift": "~> 0.4.0",
+    "DTTJailbreakDetection": "~> 0.4.0",
+    "SwiftLint": "~> 0.29.1",
+    "GMEllipticCurveCrypto": "~> 1.0"
   }
 }
