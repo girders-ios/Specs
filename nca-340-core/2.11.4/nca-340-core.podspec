@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/trunk/ }
+  s.source = { :svn => 'https://finnova.extranet.netcetera.biz/nca-340-4/svn/core/ios/nca-340-core/trunk' }
   s.description = 'Podfile for MobileBanking core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/paymitTermsAndConditions.txt', 'src/common/**/paymitPadlockOverlay.txt', 'src/common/**/paymitRegistrationOverlay.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt'
+  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt', 'src/common/**/GRConfiguration.plist'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
