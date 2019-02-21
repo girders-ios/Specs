@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
 
-  s.public_header_files = 'src/core/**/*.h'
+  # s.public_header_files = 'src/core/**/*.h'
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
   #
