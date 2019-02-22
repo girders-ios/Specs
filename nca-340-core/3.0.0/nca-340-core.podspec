@@ -61,7 +61,8 @@ Pod::Spec.new do |s|
   #
   # Adds the smartscan framework in the Pod target
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 
-    'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"' } # , 'OTHER_LDFLAGS' => '-framework smartscan'
+    'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"',
+    'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/nca-340-core' } # , 'OTHER_LDFLAGS' => '-framework smartscan'
 
   # Finally, specify any Pods that this Pod depends on.
   #
