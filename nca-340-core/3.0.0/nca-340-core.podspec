@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
   s.source_files ='src/core/**/*.{h,m,swift}'
+  s.module_map = 'src/core/module.modulemap'
   s.swift_version = '4.2'
   s.exclude_files = 'src/common/resources/OfflineResources.bundle', 'src/common/resources/Info.plist', 'src/core/rolotec/**/*.{h,m}', 'src/common/resources/Images.xcassets/**/*.png'
 
