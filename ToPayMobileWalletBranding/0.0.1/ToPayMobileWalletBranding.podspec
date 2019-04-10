@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.summary          = "A framework containing all necessary component definitions to brand the ToPayMobileWallet"
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
-    s.author           = {"Jan Brunner" => "jan.brunner@netcetera.com"}
+    s.author           = {"Netcetera" => "topay-ios-dev@netcetera.com"}
     s.source           = {:git => "https://extranet.netcetera.biz/bitbucket/scm/nca422tpmw/topay-mobile-wallet-ios.git", :tag => s.version.to_s}
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
