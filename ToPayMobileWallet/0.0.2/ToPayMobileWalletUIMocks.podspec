@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name             = "ToPayMobileWalletUIMocks"
-    s.version          = "0.0.1"
+    s.version          = "0.0.2"
     s.summary          = "A framework containing predefined mocked components of the tpmw UI framework."
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
