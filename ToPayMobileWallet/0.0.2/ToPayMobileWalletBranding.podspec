@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name             = "ToPayMobileWalletBranding"
-    s.version          = "0.0.1"
+    s.version          = "0.0.2"
     s.summary          = "A framework containing all necessary component definitions to brand the ToPayMobileWallet"
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
