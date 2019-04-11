@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
     s.subspec 'Web' do |web|
         web.source_files = '**/ToPayMobileWallet/web/**/*.{swift,h,m}'
-        web.dependency 'GirdersSwift'
+        web.dependency 'GirdersSwift', '0.4.2'
     end
 
     s.subspec 'Dependencies' do |dependencies|
