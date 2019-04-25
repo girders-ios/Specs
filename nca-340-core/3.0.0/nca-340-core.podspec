@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author   = 'Netcetera'
 
   # Specify the location from where the source should be retreived.
-  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca340finn/nca-340-4-ios.git', :branch => "develop" }
+  s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca340finn/nca-340-4-ios.git', :branch => "develop"  :submodules => true  }
   s.description = 'Podfile for MobileBanking core product.'
 
   # If this Pod runs only on iOS or OS X, then specify that with one of
