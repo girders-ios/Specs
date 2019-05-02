@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  s.resources = 'src/common/**/*.xib', 'src/**/*.storyboard', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt', 'src/common/**/GRConfiguration.plist', '/src/common/**/*.trm', 'src/common/**/texts.trm'
+  s.resources = 'src/**/*.xib', 'src/**/*.storyboard', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt', 'src/common/**/GRConfiguration.plist', '/src/common/**/*.trm', 'src/common/**/texts.trm'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
