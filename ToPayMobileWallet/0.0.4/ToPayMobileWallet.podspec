@@ -26,6 +26,11 @@ Pod::Spec.new do |s|
         mws.source_files = '**/ToPayMobileWallet/tpmw-mws/**/*.{swift,h,m}'
         mws.dependency 'GirdersSwift'
     end
+    
+    s.subspec 'Auth' do |auth|
+        auth.source_files = '**/ToPayMobileWallet/tpmw-auth/**/*.{swift,h,m}'
+        auth.dependency 'GirdersSwift'
+    end
 
     s.subspec 'Tpmw-transaction' do |tpmwTransaction|
         tpmwTransaction.source_files = '**/ToPayMobileWallet/tpmw-transaction/**/*.{swift,h,m}'
