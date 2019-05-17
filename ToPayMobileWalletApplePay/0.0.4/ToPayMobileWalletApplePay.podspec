@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
     s.source_files     = '**/ToPayMobileWalletApplePay/**/*.{swift,h,m}'
     s.resource_bundles = { 'ToPayMobileWalletApplePay' => ['**/ToPayMobileWalletApplePay/**/*.{storyboard,xib,xcassets,json,imageset,png,strings}'] }
     s.dependency 'ToPayMobileWallet'
+    s.dependency 'ToPayMobileWalletUI'
 
 end
