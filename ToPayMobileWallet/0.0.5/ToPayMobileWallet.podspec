@@ -10,18 +10,24 @@ Pod::Spec.new do |s|
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '4.0'
+    s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/**/*.{json}'] }
     
     s.subspec 'Core' do |core|
         core.source_files = '**/ToPayMobileWallet/core/**/*.{swift,h,m}'
         core.dependency 'ToPayMobileWallet/Web'
         core.dependency 'ToPayMobileWallet/Mws'
         core.dependency 'ToPayMobileWallet/Auth'
+        core.dependency 'ToPayMobileWallet/Util'
         core.dependency 'JOSESwift'
     end
 
     s.subspec 'Web' do |web|
         web.source_files = '**/ToPayMobileWallet/web/**/*.{swift,h,m}'
         web.dependency 'GirdersSwift'
+    end
+
+    s.subspec 'Util' do |util|
+        util.source_files = '**/ToPayMobileWallet/util/**/*.{swift,h,m}'
     end
 
     s.subspec 'Mws' do |mws|
@@ -37,6 +43,7 @@ Pod::Spec.new do |s|
     s.subspec 'Tpmw-transaction' do |tpmwTransaction|
         tpmwTransaction.source_files = '**/ToPayMobileWallet/tpmw-transaction/**/*.{swift,h,m}'
         tpmwTransaction.dependency 'ToPayMobileWallet/Core'
+        tpmwTransaction.resources = ["ToPayMobileWallet/tpmw-transaction/resources/*"]
     end
 
     s.subspec 'Dependencies' do |dependencies|
@@ -45,3 +52,4 @@ Pod::Spec.new do |s|
     end
     
 end
+
