@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = "PROPRIETARY"
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
-  s.source       = { :http => "https://repo.netcetera.com/nexus/repository/thirdparty/com/entersekt/transact-sdk-ios/#{s.version}/transact-sdk-ios-#{s.version}-TransaktSDK.zip" }
+  s.source       = { :http => "https://repo.netcetera.com/nexus/repository/thirdparty/com/entersekt/transakt-sdk-ios/#{s.version}/transact-sdk-ios-#{s.version}.zip" }
   s.ios.vendored_frameworks = "TransaktSDK.framework"
    
 end
