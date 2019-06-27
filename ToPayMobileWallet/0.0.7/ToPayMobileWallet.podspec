@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
         core.dependency 'ToPayMobileWallet/Mws'
         core.dependency 'ToPayMobileWallet/Auth'
         core.dependency 'ToPayMobileWallet/Util'
-        core.dependency 'JOSESwift'
+        core.dependency 'JOSESwift', '1.8.0'
     end
 
     s.subspec 'Web' do |web|
