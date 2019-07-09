@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://extranet.netcetera.biz/bitbucket/scm/nca422tpmw/topay-mobile-wallet-ios.git", :branch => 'develop' }
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
-    s.swift_version    = '4.0'
+    s.swift_version    = '5.0'
     s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/**/*.{json,trm,rb}'] }
     
     s.subspec 'Core' do |core|
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
         core.dependency 'ToPayMobileWallet/Mws'
         core.dependency 'ToPayMobileWallet/Auth'
         core.dependency 'ToPayMobileWallet/Util'
-        core.dependency 'JOSESwift', '1.8.0'
+        core.dependency 'JOSESwift'
     end
 
     s.subspec 'Web' do |web|
