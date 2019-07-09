@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '4.0'
-    s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/**/*.{json}'] }
+    s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/**/*.{json,trm,rb}'] }
     
     s.subspec 'Core' do |core|
         core.source_files = '**/ToPayMobileWallet/core/**/*.{swift,h,m}'
@@ -52,4 +52,3 @@ Pod::Spec.new do |s|
     end
     
 end
-
