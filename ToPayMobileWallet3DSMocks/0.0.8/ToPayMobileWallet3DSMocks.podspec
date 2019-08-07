@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
     s.source_files     = '**/ToPayMobileWallet3DSMocks/**/*.{swift,h,m}'
 
     s.dependency 'ToPayMobileWalletMocks'
+    s.dependency 'ToPayMobileWallet3DS'
 end
