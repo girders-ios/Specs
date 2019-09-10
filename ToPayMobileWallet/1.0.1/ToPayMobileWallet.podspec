@@ -51,5 +51,10 @@ Pod::Spec.new do |s|
         dependencies.dependency 'ToPayMobileWallet/Core'
     end
     
+    s.subspec 'Tpmw-settings' do |settings|
+        settings.source_files = '**/ToPayMobileWallet/tpmw-settings/**/*.{swift,h,m}'    
+        settings.dependency 'ToPayMobileWallet/Core'
+    end
+    
 end
 
