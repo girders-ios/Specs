@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, '8.0'
   spec.ios.deployment_target = '8.0'
   spec.requires_arc     = true
-  spec.vendored_frameworks = 'PayCardsRecognizerSim.framework'
+  spec.vendored_frameworks = 'PayCardsRecognizer.framework'
 end
