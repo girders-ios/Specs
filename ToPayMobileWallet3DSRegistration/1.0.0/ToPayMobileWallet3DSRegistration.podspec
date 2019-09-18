@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
-    s.name             = "ToPayMobileWallet3DS"
+    s.name             = "ToPayMobileWallet3DSRegistration"
     s.version          = "1.0.0"
-    s.summary          = "A framework containing all necessary components to use Transakt functionality"
+    s.summary          = "A framework containing all necessary components to perform 3DS Registration functionality"
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
     s.author           = {"Netcetera" => "topay-ios-dev@netcetera.com"}
@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '5.0'
-    s.source_files     = '**/ToPayMobileWallet3DS/**/*.{swift,h,m}'
-    s.resource_bundles = { 'ToPayMobileWallet3DS' => ['**/ToPayMobileWallet3DS/**/*.{storyboard,xib,xcassets,json,imageset,png,strings}', 
+    s.source_files     = '**/ToPayMobileWallet3DSRegistration/**/*.{swift,h,m}'
+    s.resource_bundles = { 'ToPayMobileWallet3DSRegistration' => ['**/ToPayMobileWallet3DSRegistration/**/*.{storyboard,xib,xcassets,json,imageset,png,strings}', 
     												  '**/ToPayMobileWalletUI/**/*.xcassets'] }
-    s.dependency 'TransaktSDK', '2.11.0'
     s.dependency 'ToPayMobileWallet'
     s.dependency 'ToPayMobileWalletUI'
     s.dependency 'ToPayMobileWalletBranding'
+    s.dependency 'ToPayMobileWallet3DS'
 end
