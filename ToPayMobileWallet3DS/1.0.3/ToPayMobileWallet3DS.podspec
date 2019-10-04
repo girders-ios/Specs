@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
     s.dependency 'TransaktSDK', '2.11.0'
     s.dependency 'ToPayMobileWallet'
     s.dependency 'ToPayMobileWalletUI'
-    s.depen
+    s.dependency 'ToPayMobileWalletBranding'
+end
