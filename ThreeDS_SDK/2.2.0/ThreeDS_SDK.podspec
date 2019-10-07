@@ -25,15 +25,15 @@ Pod::Spec.new do |s|
    xcode_10_3_iphoneos.ios.vendored_frameworks = "xcode_10_3/ThreeDS_SDK/iphoneos/ThreeDS_SDK.framework"
   end
   s.subspec 'xcode_10_3_universal' do |xcode_10_3_universal|
-   xcode_10_3_universal.ios.vendored_frameworks = 'xcode_10_3/ThreeDS_SDK.zip/universal/ThreeDS_SDK.framework'
+   xcode_10_3_universal.ios.vendored_frameworks = 'xcode_10_3/ThreeDS_SDK/universal/ThreeDS_SDK.framework'
   end
 
   s.subspec 'iphoneos' do |iphoneos|
-   iphoneos.ios.vendored_frameworks = "xcode_11/ThreeDS_SDK.zip/iphoneos/ThreeDS_SDK.framework"
+   iphoneos.ios.vendored_frameworks = "xcode_11/ThreeDS_SDK/iphoneos/ThreeDS_SDK.framework"
   end
 
   s.subspec 'universal' do |universal|
-   universal.ios.vendored_frameworks = 'xcode_11/ThreeDS_SDK.zip/universal/ThreeDS_SDK.framework'
+   universal.ios.vendored_frameworks = 'xcode_11/ThreeDS_SDK/universal/ThreeDS_SDK.framework'
   end
 
 end
