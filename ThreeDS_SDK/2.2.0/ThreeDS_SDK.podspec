@@ -1,5 +1,5 @@
-#
 #  Be sure to run `pod spec lint ThreeDS-SDK.podspec' to ensure this is a
+#
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
   s.subspec 'xcode_10_3_iphoneos' do |xcode_10_3_iphoneos|
-   xcode_10_3_iphoneos.ios.vendored_frameworks = "xcode_10_3/ThreeDS_SDK.zip/iphoneos/ThreeDS_SDK.framework"
+   xcode_10_3_iphoneos.ios.vendored_frameworks = "xcode_10_3/ThreeDS_SDK/iphoneos/ThreeDS_SDK.framework"
   end
   s.subspec 'xcode_10_3_universal' do |xcode_10_3_universal|
    xcode_10_3_universal.ios.vendored_frameworks = 'xcode_10_3/ThreeDS_SDK.zip/universal/ThreeDS_SDK.framework'
