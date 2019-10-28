@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
     s.dependency 'ToPayMobileWalletUI'
     s.dependency 'ToPayMobileWalletBranding'
     s.dependency 'ToPayMobileWallet3DS'
-    s.dependency 'PayCardsRecognizer', '1.1.4-scanFix'
+    s.dependency 'PayCardsRecognizer', '1.1.5-scanFix'
 end
