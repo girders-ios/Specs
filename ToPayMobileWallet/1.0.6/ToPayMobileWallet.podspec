@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage         = "https://www.netcetera.com"
     s.license          = {:type => 'Netcetera', :text => 'Netcetera'}
     s.author           = {"Netcetera" => "topay-ios-dev@netcetera.com" }
-    s.source           = { :git => "https://extranet.netcetera.biz/bitbucket/scm/nca422tpmw/topay-mobile-wallet-ios.git", :branch => 'develop'}
+    s.source           = { :git => "https://extranet.netcetera.biz/bitbucket/scm/nca422tpmw/topay-mobile-wallet-ios.git", :tag => '1.0.6'}
     s.platform         = :ios, "11.0"
     s.requires_arc     = true
     s.swift_version    = '5.0'
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.resources = ["ToPayMobileWallet/tpmw-transaction/resources/*"]
     s.dependency 'JOSESwift', '1.8.1'
     s.dependency 'GirdersSwift'
-    
+
 end
 
