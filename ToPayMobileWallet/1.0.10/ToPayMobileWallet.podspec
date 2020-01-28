@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = { 'ToPayMobileWallet' => ['**/ToPayMobileWallet/**/*.{json,trm,rb}'] }
     s.source_files = '**/ToPayMobileWallet/**/*.{swift,h,m}'
     s.resources = ["ToPayMobileWallet/tpmw-transaction/resources/*"]
-    s.dependency 'JOSESwift', '1.8.1'
+    s.dependency 'JOSESwift', '2.0.0'
     s.dependency 'GirdersSwift'
 
 end
