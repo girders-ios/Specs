@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     s.resources = ["ToPayMobileWallet/tpmw-transaction/resources/*"]
     s.dependency 'JOSESwift', '2.0.0'
     s.dependency 'GirdersSwift'
-
+    s.dependency 'Sentry', '4.4.3'
 end
 
