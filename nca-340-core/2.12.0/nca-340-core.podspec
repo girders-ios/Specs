@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name     = 'nca-340-core'
-  s.version = '2.11.15'
+  s.version = '2.12.0'
   s.license = { :type => 'commercial', :text => %{
                 The copyright to the computer program(s) herein is the property of Netcetera AG, Switzerland.
                 The program(s) may be used and/or copied only with the written permission of Netcetera AG or
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   # xcconfig hash.
   #
   # Adds the smartscan framework in the Pod target
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"' } # , 'OTHER_LDFLAGS' => '-framework smartscan'
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2', 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/nca-340-core/lib/"' } , 'OTHER_LDFLAGS' => '-framework ScanAndPayQR'
 
   # Finally, specify any Pods that this Pod depends on.
   #
@@ -67,5 +67,4 @@ Pod::Spec.new do |s|
   s.dependency 'JRSwizzle', '1.0'
   s.dependency 'GirdersiOS/All', '1.2.4'
   s.dependency 'ObjectiveLuhn', '1.0.2'
-  s.dependency 'ScanAndPay', '1.1.1-FNN'
 end
