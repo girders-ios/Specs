@@ -33,12 +33,12 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files ='src/core/**/*.{h,m,swift}'
+  s.source_files ='src/core/**/*.{h,m,swift}', 'lib/*.framework'
   s.exclude_files = 'src/common/resources/OfflineResources.bundle', 'src/common/resources/Info.plist', 'src/core/rolotec/**/*.{h,m}', 'src/common/resources/Images.xcassets/**/*.png'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
-  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt', '/src/common/**/*.trm', 'src/common/**/texts.trm'
+  s.resources = 'src/common/**/*.xib', 'src/common/**/*.png', 'src/common/**/*.html', 'src/common/**/*.strings', 'src/common/**/*.xml', 'src/common/**/*.mustache', 'src/common/**/termsOfUse.txt', 'src/common/**/touchIDTermsOfUse.txt', 'src/common/**/faceIDTermsOfUse.txt', '/src/common/**/*.trm', 'src/common/**/texts.trm', 'lib/*.framework'
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
