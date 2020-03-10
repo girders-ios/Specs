@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.description = 'ScanAndPay library for iOS.'
   s.platform = :ios, '10.0'
   s.source = { :git => 'https://extranet.netcetera.biz/bitbucket/scm/nca339moba/scan-and-pay-ios.git', :branch => 'scan_and_pay_2.0_framework', :tag => '2.0.0' }
-  s.source_files = '*.framework'
+#   s.source_files = '*.framework'
 #   s.requires_arc = true
 
   s.license = { :type => 'commercial', :text => %{
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
                  under which the program(s) have been supplied.2
               } }
   
+  s.source = { :git => '' }
   s.vendored_frameworks = "ScanAndPayQR.framework"
 end
