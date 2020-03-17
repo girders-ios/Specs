@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
                  under which the program(s) have been supplied.2
               } }
   
-  s.source = { :git => '' }
   s.vendored_frameworks = "ScanAndPayQR.framework"
 end
