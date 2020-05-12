@@ -9,17 +9,17 @@
 Pod::Spec.new do |s|
 
   s.name         = "ThreeDS_SDK"
-  s.version      = "0.2.1"
+  s.version      = "2.3.10-SNAPSHOT"
   s.summary      = "ThreeDS SDK for iOS applications."
   s.description  = "3DS SDK for iOS applications used by merchants"
   s.homepage     = "https://netcetera.com"
   s.author       = 'Netcetera'
   s.license      = "PROPRIETARY"
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5'
   s.source       = { :git => "https://extranet.netcetera.biz/bitbucket/scm/nca4463dss/ios-3ds-skd.git", :branch => 'develop' }
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 
   s.source_files = 'src/main/**/*.{swift,m,h}'
   s.resources = 'src/main/**/*.xib', 'src/main/**/Configuration.plist', 'src/main/resources/DSCertificates/**/*.*', 'src/main/**/logoImages/*', 'src/main/**/*.storyboard', 'src/main/**/images/*'
