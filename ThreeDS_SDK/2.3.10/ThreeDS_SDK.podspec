@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ThreeDS_SDK"
-  s.version      = "2.3.10-SNAPSHOT"
+  s.version      = "2.3.10"
   s.summary      = "ThreeDS SDK for iOS applications."
   s.description  = "3DS SDK for iOS applications used by merchants"
   s.homepage     = "https://netcetera.com"
